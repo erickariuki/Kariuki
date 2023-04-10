@@ -67,6 +67,7 @@ const button=document.getElementById("info-btn").addEventListener("click", displ
 function fetchProducts() {
   fetch(`http://localhost:3000/products`)
   
+  
   .then ( res => res.json())
   .then(products=>displayProducts(products))
   
