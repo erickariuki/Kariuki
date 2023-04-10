@@ -1,0 +1,154 @@
+
+header {
+    background-color: white;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+#heading{
+	color:blue;
+	
+}
+
+/* #section {
+	background-color: gray;
+	color: azure;
+	padding: 10px;
+	text-align: row;
+}  */
+#main {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 1rem;
+	padding-top: 350px;
+	margin-bottom: 150px;
+
+} */
+#product-info {
+	
+	flex-direction: row;
+	display: flex;
+	justify-content: row;
+	width: 0px;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+
+
+}
+
+
+
+.card-deck {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  .card {
+	width: 30%;
+	margin-bottom: 20px;
+  }
+
+
+
+
+
+
+
+#product-info {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+  }
+  
+  nav {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  nav ul {
+	display: flex;
+	list-style: none;
+  }
+  
+  nav li {
+	margin: 10 px;
+  }
+  
+  nav a {
+	text-decoration: none;
+	color: #000;
+  }
+  .products-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  }
+  
+  
+	/* Add any styles specific to each product here */
+  /* }
+  .product-container {
+	font-size: 0; /* remove whitespace between elements */
+
+  
+  .product {
+	
+	width: 60%; /* adjust this as needed for your product layout */
+	vertical-align: top;
+  }
+  
+  /* reset font-size for product content */
+  .product * {
+	font-size: initial;
+  }
+
+  .products-container {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .product {
+	width: 25%; /* Set the width of each product to 25% to display 4 products horizontally */
+	padding: 10px;
+	box-sizing: border-box; /* Include padding and border in the width calculation */
+	text-align: center;
+  }
+  
+  .product img {
+	max-width: 100%;
+	height: auto;
+  }
+  form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+  }
+  
+  input[type="text"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	font-size: 16px;
+	width: 300px;
+  }
+  
+  button[type="submit"] {
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	margin-left: 10px;
+	cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+	background-color: #0062cc;
+  }
+	

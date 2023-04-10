@@ -1,0 +1,74 @@
+
+{
+
+
+"products" :[
+  
+    
+    {
+      "id":1,
+      "name": "Porcupine Boots",
+      "price": "Ksh 2000",
+      "image": "https://i.roamcdn.net/hz/pi/listing-thumb-543w/05e128d1a092a32be56ac4a23bdd3079/-/horizon-files-prod/pi/picture/qwkre50/b80ec5741ad963105fcab97ea000212f674c3f37.jpg",
+      "description": "Protect your feet on the job site with this porcupine.",
+      "category": "Legs Protection"
+     },
+    {
+      "id":2,
+     "name":"Reflectors",
+     "price":"Ksh200",
+     "image":"https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/49/859855/2.jpg?2358",
+     "description":"provide day and night visibility",
+     "category":"visibility"
+    },
+    {
+      "id":3,
+      "name":"Protective Gloves",
+      "price":"Ksh 900",
+      "image":"https://www.shutterstock.com/image-photo/construction-gloves-260nw-135869438.jpg",
+      "description":"Protect your feet on the job site with this gloves",
+      "category":"hands protection"
+     },
+     {
+      "id":4,
+      "name":"Protective Goggles",
+      "price":"Ksh400",
+      "image":"https://cdn.shopify.com/s/files/1/1556/8639/products/IMG_4426-960x613.jpg?v=1596679271",
+      "description":"protect your eyes on the job site",
+      "category":"eyes protection"
+     },
+     {
+      "id":5,
+      "name":"Gas Masks",
+      "price":"ksh 700",
+      "image":"https://www.moldex.com/wp-content/uploads/7800-OV-SIDE.jpg",
+      "description":"protect your nose on the job site",
+      "category":"respiratory protection"
+      },
+      {
+        "id":6,
+        "name":"Protective Helmet",
+        "price":"Ksh300",
+        "image":"https://static.vecteezy.com/system/resources/previews/013/869/806/original/yellow-safety-helmet-png.png",
+        "description":"protect your head on the job site",
+        "category":"guard your head"
+        
+      },
+      {
+        "id":7,
+        "name":"Ear muffs",
+        "price":"KSH1200",
+        "image":"https://e7.pngegg.com/pngimages/177/485/png-clipart-earmuffs-peltor-hearing-personal-protective-equipment-3m-others-miscellaneous-orange.png",
+        "description":"protect your ears on the job site",
+        "category":"ers protection"
+      },
+      {
+        "id":"8",
+        "name":"fire extinguishers",
+        "price":"KSH1500",
+        "image":"https://img.favpng.com/17/9/19/five-star-fire-protection-fire-extinguishers-firefighting-fire-safety-png-favpng-X4hyXSGn6E7r3MdFwxMGuYAhx.jpg",
+        "description":"protect your job site",
+        "category":"site protection"
+      }
+  ]
+}
