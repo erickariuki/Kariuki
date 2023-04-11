@@ -1,6 +1,7 @@
 
 function displayProducts(product) {
   let card = ""
+  card.className = "card col-2 p-0 m-4"
   product.forEach(products=>{
   card +=`
   
@@ -25,6 +26,7 @@ function displayProducts(product) {
 
 document.querySelector("#item-list").innerHTML=card
   }
+  
  function displayMore(pro){
 
 
@@ -65,7 +67,9 @@ const button=document.getElementById("info-btn").addEventListener("click", displ
   }
     
 function fetchProducts() {
-  fetch(`http://localhost:3000/products`)
+  fetch(` http://localhost:3000/products`)
+  
+  
   
   
   .then ( res => res.json())
